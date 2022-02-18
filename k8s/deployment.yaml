@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: cv-app
-        image: gcr.io/kubeflow-327710/streamlit_ui:v1
+        image: gcr.io/rajatcp/streamlit_ui:v1
         ports:
         - containerPort: 8501
